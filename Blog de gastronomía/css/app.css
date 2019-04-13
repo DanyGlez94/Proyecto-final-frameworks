@@ -1,0 +1,63 @@
+body{
+  background-image: url("../img/fondo.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.button{
+  background-color: rgb(215, 101, 190);
+}
+
+.principal{
+  background-color: rgb(17, 60, 89, 0.8);
+}
+
+.slogan{
+  text-align: right;
+  font-style: italic;
+}
+
+.vertical-rule{
+  border-right: 1px solid #fff;
+}
+
+.callout{
+  background-color: rgb(215, 242, 246);
+}
+
+.lista{
+  border: 1px solid rgb(215, 101, 190);
+  border-radius: 5px;
+  color: rgb(215, 101, 190);
+  margin-bottom: 1px;
+}
+
+a{
+  color: rgb(215, 101, 190);
+}
+
+.img{
+  width: 80px;
+}
+
+textarea{
+  resize: none;
+}
+
+.btn-margin{
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.v-align{
+  padding-top: 20px;
+}
+
+.user{
+  width: 80px;
+}
+
+#comentario{
+  border: 1px solid #0A0A0A;
+}
