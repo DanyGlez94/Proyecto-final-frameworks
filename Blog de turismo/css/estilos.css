@@ -1,0 +1,98 @@
+body{
+  background-color: rgb(168, 173, 175);
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.container{
+  background-image: url("../img/torre.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0;
+}
+
+.img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.img-post{
+  width: 50%;
+  margin: 0 15px 0 15px;
+  float: left;
+}
+
+a{
+  color: #fff;
+}
+
+.social{
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.card{
+  padding: 20px;
+}
+
+.autor{
+  width: 80%;
+  margin-top: 20px;
+}
+
+.comments{
+  background-color: rgb(119, 177, 245);
+  color: #fff;
+}
+
+/* label color */
+.input-field label {
+  color: #fff;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #fff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #fff !important;
+ box-shadow: 0 1px 0 0 #fff !important;
+}
+
+.input-field input[type=text]::placeholder {
+ color: #fff !important;
+}
+
+.input-field textarea:focus {
+ border-bottom: 1px solid #fff !important;
+ box-shadow: 0 1px 0 0 #fff !important;
+}
+
+.input-field textarea::placeholder {
+ color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .img-post{
+    width: 80%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .right-align{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
